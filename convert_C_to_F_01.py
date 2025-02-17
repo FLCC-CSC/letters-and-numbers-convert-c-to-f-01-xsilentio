@@ -21,7 +21,7 @@
 
 celsius = float(input("Enter a temperature in Celsius: "))
 farenheit = (celsius * (9/5)) + 32
-print(f"\n{celsius} degrees Celsius is {farenheit} degrees Fahrenheit")
+print(f"\n{celsius} degrees Celsius is {farenheit} degrees Fahrenheit.")
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
