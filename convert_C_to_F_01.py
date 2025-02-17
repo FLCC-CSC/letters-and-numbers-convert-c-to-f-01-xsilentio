@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Katrina Carpenter
+# DATE: 02/14/2025
+# BRIEF DESCRIPTION: Celsius to Fahrenheit lab
 
 
 
@@ -19,14 +19,9 @@
     
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
-
-
-
-
-
-
-
+celsius = float(input("Enter a temperature in Celsius: "))
+farenheit = (celsius * (9/5)) + 32
+print(f"\n{celsius} degrees Celsius is {farenheit} degrees Fahrenheit")
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -83,7 +78,7 @@ Enter a temperature in Celsius: 1
 2. Why do you think it is important to use `float` as opposed to
    a different type of variable type?
 
-
+Because floats can represent decimal values, and the formula for converting celsius to fahrenheit often takes a whole number and returns a decimal. Also, it's important that this program accept decimal values for the initial input too.
 
 
 
